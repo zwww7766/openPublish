@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "175090e6-02dc-4b3e-a078-d93f954d0e49",
+		"name": "发文openApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14454857"
+	},
+	"item": [
+		{
+			"name": "可发布站点信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/pub/config",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"pub",
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "指定站点分类信息",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/category?siteId=10&pubType=1",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"category"
+					],
+					"query": [
+						{
+							"key": "siteId",
+							"value": "10"
+						},
+						{
+							"key": "pubType",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "发文配置检测",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"天子守国门，君王死社稷：出自哪里，为社稷而死的君王有哪些\",\n    \"digest\":\"天子守国门，君王死社稷：出自哪里，为社稷而死的君王有哪些\",\n    \"author\":\"\",\n    \"publishTime\":\"\",\n    \"content\":\"<section data-role=\\\"paragraph\\\" class=\\\"_135editor\\\"><section><p>“天子守国门，君王死社稷”，这个典故出自明朝，讲的是永乐帝朱棣迁都北京和崇祯吊死煤山的故事。</p></section><section><p>朱棣：天子守国门</p></section><section><p>朱元璋在元末天下大乱之际，击败了陈友谅、张士诚、元朝等强敌，建立了大明王朝，但是由于元朝势力还没有完全被消灭，只是被朱元璋击退到了北方的草原上。同时，北方还有鞑靼和瓦剌等强敌，这让朱元璋心存顾虑，将都城设在了南京，而将自己的几个能力出众的儿子，燕王朱棣、宁王朱权等的封国，封在了北方，让他们替大明镇守北方边疆，防御北元、鞑靼和瓦剌。</p></section><section><section><br/></section></section><section><p>朱元璋将皇位传给孙子朱允炆后，由于朱允炆觉得藩王的实力太强大，会威胁到自己的皇位，所以也效仿汉景帝开始削藩，但这引起了燕王朱棣等藩王的不满，朱棣以“清君侧”的名义起兵造反，最终经过4年时间的苦战，朱棣成功击败了建文帝的朝廷军，取代朱允炆当了大明皇帝。</p></section><section><p>朱棣当了皇帝后，一方面南京是朱允炆的势力范围，他的控制能力较弱，所以朱棣顾虑重重。另一方面，由于他这个皇位是夺取朱允炆的，而南京处处都有建文帝的身影，这也让朱棣心存芥蒂。同时，南京的大臣、百姓也有不少心向着建文帝，所以朱棣也担忧，于是决定迁都北京。</p></section><section><section><img src=\\\"https://chinaso-video.oss-cn-beijing.aliyuncs.com/img/2022-05-24_19_04_571857a191c5f8febc175282c9bfd38460.jpg\\\"></section></section><section><p>北京是朱棣的封国，在朱棣的势力范围之内，受建文帝的影响较小，所以朱棣也放心。同时，北京位于北方，是属于抵抗北元、鞑靼和瓦剌等北方强敌的前线，所以才有了天子守国门的说法。</p></section><section><p>崇祯：君王死社稷</p></section><section><p>崇祯是大明的最后一任皇帝，由于他的哥哥朱由校喜欢做木匠活，所以他一天忙于木匠活，将朝政交给宦官魏忠贤处理，而擅长结党营私、使用阴谋诡计，但不会治理国家的魏忠贤，将大明王朝糟蹋着千疮百孔，等朱由校落水生病而亡后，留给崇祯的则是一个无可救药的烂摊子。</p></section><section><p>虽然崇祯当上皇帝后，立马除掉了魏忠贤这颗毒瘤，但大明王朝的其他弊病，如党争、宦官擅权等问题，崇祯都没有处理好，再加上天灾人祸，以及关外的大清崛起，这让大明在崇祯手中走向了灭亡。</p></section><section><section><br/></section></section><section><p>崇祯晚年时期，将大明精锐军队调往了辽东等地，防守关外的大清，这导致大明关内空虚，李自成从西安打到了北京。</p></section><section><p>李自成打到北京城之前，崇祯完全可以迁都南京，从而保全实力，然后和李自成等起义军对抗，但崇祯顾及虚名，不愿背上丢弃国土的罪名，所以不肯说出迁都南京的话，崇祯希望大臣提出来，但大臣害怕事后遭崇祯清算，也不愿意说出来，只有李明睿等少数大臣提议让崇祯迁都，但随即就遭到陈演、光时亨等大臣的强烈反对，光时亨还要求崇祯处死李明睿以安定天下，这个阵势让其他朝臣都不敢说话。</p></section><section><p>最终在和大臣的内耗中，崇祯南逃的路线被李自成堵死，他也失去了逃命的最后希望。随后，北京城被李自成的大顺军攻破，崇祯在走投无路之际，在煤山自杀。崇祯死后，户部尚书倪元璐、工部尚书范景文、左都御史李邦华等众多大臣、绅生生员等也跟随他自杀，大明王朝就此灭亡。</p></section><section><section><img src=\\\"https://chinaso-video.oss-cn-beijing.aliyuncs.com/img/2022-05-24_19_04_573f9a6b2f1445c2312398b1c975d6b754.jpg\\\"></section></section><section><p>崇祯算是历史上的一位为社稷而死的皇帝。</p></section><section><p>为社稷而死的君王，还有南宋的小皇帝宋少帝赵昺。元兵南下后，南宋残余势力和元兵，在崖山爆发了最后一场大战，崖山海战，都由于双方的实力差距，以及南宋的指挥失误，宋兵惨败给了元军，大势已去后，老丞相陆秀夫带着8岁的小皇帝赵昺跳入大海，为国殉身，他也算一位社稷而死的君王。</p></section><section><p>历史上的其他亡国之君，如秦二世、隋炀帝、永历帝等，他们都是在帝国崩塌之际，被身边人杀害的，或者被对手杀害的，算不上为社稷而死，而商纣王这类在帝国崩塌之际，为避免受辱而自杀的皇帝，也不算为社稷而死，他们是为了避免被俘后受辱而自杀的，所以不能算为社稷而死。</p></section><p><br/></p></section>\",\n    \"coverImg\":\"\",\n    \"labelList\":[\"社稷\"],\n    \"siteIdList\":[],\n    \"siteBiasList\":[{\n        \"siteId\":2,\n        \"coverImg\":\"https://chinaso-video.oss-cn-beijing.aliyuncs.com/img/2022-05-24_19_04_571857a191c5f8febc175282c9bfd38460.jpg\",\n        \"saName\":\"12333\",\n        \"cookieStr\":\"sid=BF3E315E4CFA55ED83FF79F50DABE229; \",\n        \"appendStr\":\"\",\n        \"platTypeKey\":\"\",\n        \"platTypeName\":\"\",\n        \"origin\":0,\n        \"advertise\":0,\n        \"notifyUrl\":\"\"\n    }]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/article/check",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"article",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "发布文章",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "preId",
+							"value": "0A2278A23ECD5F096A74CD5F00E9BE55",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/article/pub",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"article",
+						"pub"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "视频上传完毕资源id回填",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"url\":\"http://chinaso-video.oss-cn-beijing.aliyuncs.com/resource/220513220839_pc_1249ed4cb64f57329294789949d296c6.mp4\",\"resourceId\":\"1249ed4cb64f57329294789949d296c6\",\"videoLength\":7,\"width\":720,\"height\":1280}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/resource/new",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"resource",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "差异化配置检测-发视频",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"我的熬夜日常我的熬夜日常\",\n    \"digest\":\"我的熬夜日常我的熬夜日常\",\n    \"author\":\"\",\n    \"publishTime\":\"\",\n    \"content\":\"\",\n    \"coverImg\":\"\",\n    \"labelList\":[\"熬夜\"],\n    \"siteIdList\":[],\n    \"resourceId\":\"1249ed4cb64f57329294789949d296c6\",\n    \"siteBiasList\":[{\n        \"cookieStr\":\"access-token=AT-b1b526d071a64430ae6742121b48b8f8-3191cbb8e1a14a239a64c071abf50af5; customerBeakerSessionId=3c7cbb7cb8a8d5dfab48849c158c7f6fffec29a5gAJ9cQAoWBAAAABjdXN0b21lclVzZXJUeXBlcQFLAVgOAAAAX2NyZWF0aW9uX3RpbWVxAkdB2LyBwEUOVlgJAAAAYXV0aFRva2VucQNYQQAAAGZiYWViMjA2MGI2NDQ5MjM4MThmNjNhNzE2YmEwYWRhLThmMjM3NTUzOWU1MjRlN2Y4ODQzNmU4N2U2M2Q3ZmFhcQRYAwAAAF9pZHEFWCAAAAA2Mzc5ZWRhZTAyZWM0ZjJmYjZjNjJlNWVhNzcxYjY3ZXEGWA4AAABfYWNjZXNzZWRfdGltZXEHR0HYvIHARQ5WWAYAAAB1c2VySWRxCFgYAAAANTk1OWZiYzk1MGM0YjQ1MjgzY2I5M2U4cQl1Lg==; galaxy.creator.beaker.session.id=1660028673141087661250; sso-type=customer; subsystem=ares; timestamp2=1659945078259d5fe273ea75d025424e661cd24d88d6dcb11c78da8b5bd0bb5;\",\n        \"saName\":\"\",\n        \"advertise\":0,\n        \"area\":0,\n        \"city\":0,\n        \"columnVideo\":0,\n        \"country\":0,\n        \"coverImg\":\"https://chinaso-video.oss-cn-beijing.aliyuncs.com/img/2022-05-13_22_08_4190431dccdb9c3a8495865ca3259d8f06.jpg\",\n        \"digest\":\"我的熬夜日常我的熬夜日常\",\n        \"download\":0,\n        \"groupPublishSex\":0,\n        \"id\":0,\n        \"labelList\":[\"我的熬夜日常\"],\n        \"leaveDanMu\":0,\n        \"leaveMessage\":0,\n        \"origin\":0,\n        \"province\":0,\n        \"real\":0,\n        \"realDonate\":0,\n        \"reprint\":0,\n        \"secondType\":0,\n        \"serialize\":0,\n        \"showType\":1,\n        \"siteId\":26,\n        \"siteUserName\":\"1952326771550893\",\n        \"sync\":0,\n        \"title\":\"我的熬夜日常我的熬夜日常\",\n        \"type\":0,\n        \"waterMark\":0}]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/video/check",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"video",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "发布视频",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "preId",
+							"value": "401877C472E1F969A7E8483BD9F228A4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/video/pub",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"video",
+						"pub"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "发布结果同步(30分钟内)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/pub/status?contents=3%7C689",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"pub",
+						"status"
+					],
+					"query": [
+						{
+							"key": "contents",
+							"value": "3%7C689"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "平台发布结果查询",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "119:2DRQwjyURQmvOFbEZqLHPNLpoyt",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://open.yimeibao8.com:81/meik/api/pub/third/status?pubType=1&contentId=5681",
+					"protocol": "http",
+					"host": [
+						"open",
+						"yimeibao8",
+						"com"
+					],
+					"port": "81",
+					"path": [
+						"meik",
+						"api",
+						"pub",
+						"third",
+						"status"
+					],
+					"query": [
+						{
+							"key": "pubType",
+							"value": "1"
+						},
+						{
+							"key": "contentId",
+							"value": "5681"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
