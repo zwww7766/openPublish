@@ -2,6 +2,7 @@
 
 
 #### 测试账号   
+- [管理后台](http://open.yimeibao8.com:5678/)
 - 用户名: test1
 - 密码: 123456
 - authorization: 119:2DRQwjyURQmvOFbEZqLHPNLpoyt
